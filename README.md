@@ -15,4 +15,21 @@ This project builds and trains a Convolutional Neural Network (CNN) using Tensor
 
 ## Objective
 
-> Predict the correct digit (0–9) from a 28×28 grayscale image using a deep learning model.
+Predict the correct digit (0–9) from a 28×28 grayscale image using a deep learning model.
+
+---
+
+## Model result
+
+Achieved 98.69% accuracy on the test dataset
+
+---
+
+## How to Run
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python main.py
+
